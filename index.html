@@ -14,14 +14,102 @@
 	<meta property="og:type" content="website">
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link rel="stylesheet" type="text/css" href="static/css/style.css?v=1.04">
+
+	<style>
+		.contne{display: flex;max-width: 1200px;}
+		.faq-section, .reviews-section, .cta-section {
+			text-align: center;
+			padding: 40px 20px;
+			margin: 20px auto;
+			max-width: 50%;
+			margin: 40px 2%;
+			box-sizing: border-box;
+			border-radius: 10px;
+			box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+		}
+
+		.faq-section {
+			background: #f9f9f9;
+		}
+
+		.faq-section h2, .reviews-section h2, .cta-section h2 {
+			color: #333;
+			margin-bottom: 20px;
+			font-size: 26px;
+		}
+
+		.faq-section ul {
+			list-style: none;
+			padding: 0;
+		}
+
+		.faq-section li {
+			background: white;
+			padding: 15px;
+			margin: 10px 0;
+			border-radius: 5px;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+		}
+
+		.reviews-section {
+			background: #fff3cd;
+		}
+
+		.review {
+			background: white;
+			padding: 15px;
+			margin: 10px 0;
+			border-radius: 5px;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+		}
+
+		.cta-section {
+			background: #007bff;
+			color: white;
+		}
+
+		.cta-button {
+			background: #ff5722;
+			color: white;
+			padding: 15px 30px;
+			border-radius: 5px;
+			text-decoration: none;
+			font-size: 18px;
+			display: inline-block;
+			margin-top: 20px;
+			transition: background 0.3s;
+		}
+
+		.cta-button:hover {
+			background: #e64a19;
+		}
+	</style>
+	<!-- Schema Markup -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Organization",
+		"name": "九游娱乐",
+		"url": "http://TY25.TV",
+		"logo": "static/image/logo-9U7cCYef.png",
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": "4.9",
+			"reviewCount": "1897"
+		},
+		"potentialAction": {
+			"@type": "SearchAction",
+			"target": "http://TY25.TV/search?q={search_term_string}",
+			"query-input": "required name=search_term_string"
+		}
+	}
+	</script>
 </head>
 
 <body>
 
 	<section id="aboutUs" class="goShar">
-
 		<div class="goSharCont">
-
 			<div class="goShaCont">
 				<div class="goShar_l">
 					<img src="static/image/ball_27.c3279dd3.png" alt="">
@@ -29,23 +117,53 @@
 
 				<div class="goShar_r">
 					<div class="goShar_tit">
-						<img src="./static/image/logo-9U7cCYef.png" alt=""> 
+						<img src="./static/image/logo-9U7cCYef.png" alt="九游娱乐Logo">
 					</div>
 					<h2 class="goShaTitle">体育、真人、棋牌赔率最高的娱乐平台
-						<br> <span>开云体育</span>,
-<span>爱游戏</span>,<span>华体会</span> , <span>乐鱼体育</span> ,<span>九游娱乐</span>
+						<br> <span>开云体育</span>, <span>爱游戏</span>,<span>华体会</span>, <span>乐鱼体育</span>, <span>九游娱乐</span>
 					</h2>
-					
-					<a target="_blank" href="http://TY25.TV">訪問官網</a>
+
+					<a target="_blank" href="http://TY25.TV" class="cta-button">立即访问官网</a>
 				</div>
 			</div>
 
 			<img class="zhsm" src="static/image/index_130.e7bb49bf.png" alt="">
-
 		</div>
 
-	</section>
+			<!-- FAQ Section -->
+
+
+			<Section class="contne">
+
+				<section id="faq" class="faq-section">
+					<h2>常见问题</h2>
+					<ul>
+						<li><strong>九游娱乐是否安全可靠？</strong><br> 是的，九游娱乐持有欧洲马耳他（MGA）合法执照，安全有保障。</li>
+						<li><strong>如何注册九游娱乐账号？</strong><br> 点击页面上的“立即访问官网”按钮，进入注册页面完成信息填写即可。</li>
+						<li><strong>有哪些热门游戏可玩？</strong><br> 我们提供体育博彩、真人娱乐、棋牌游戏等多种热门项目。</li>
+					</ul>
+				</section>
+			
+				<!-- 用户评价 -->
+				<section id="reviews" class="reviews-section">
+					<h2>用户评价</h2>
+					<div class="review">
+						<p>⭐⭐⭐⭐⭐ - “九游娱乐真的太棒了！赔率高、提现快，值得信赖。” - 张先生</p>
+					</div>
+					<div class="review">
+						<p>⭐⭐⭐⭐⭐ - “平台稳定，客服态度很好，五星推荐！” - 李小姐</p>
+					</div>
+				</section>
+
+			</Section>
+
+
+
  
+
+
+	</section>
+
 
 </body>
 
